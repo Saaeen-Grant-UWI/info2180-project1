@@ -38,3 +38,15 @@ header .container {
     align-items: center;
     height: 60px;
 }
+
+.overview-hero { background-color: #E2E8F0; }
+
+.overview-hero .container {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.overview-hero-text { max-width: 556px; }
+.overview-hero-text h2 { margin-bottom: 32px; }
