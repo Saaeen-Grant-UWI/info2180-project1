@@ -112,3 +112,38 @@ header .container {
 }
 
 .cta a { color: inherit; }
+
+
+.stories .container {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0;
+}
+
+.stories .container article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: pink; */
+    margin: 16px 0;
+    min-height: 200px;
+
+}
+
+.stories .container article img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.article-body { 
+    padding-left: 32px;
+    display: flex;
+    min-height: 200px;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.article-body p a { color: #5A67D8; }
+.stories .container h2 { color: #5A67D8; }
